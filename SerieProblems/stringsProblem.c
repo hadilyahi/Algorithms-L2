@@ -1,0 +1,2 @@
+//  STRINGS
+#include<stdio.h>
