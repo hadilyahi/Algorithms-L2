@@ -44,6 +44,61 @@
 //         return n%10 + sumOfDigits(n/10);
         
 //  }
+// problem 6 : the square of a number
+// int square(int n){
+//     int a;
+//     if(n==0){
+//         return 0;
+//     }
+//     a= n*n;
+//     return a;
+    
+// }
+// problem 6 : function to swap to numbers
+// void swap(int *n1, int *n2){
+//     int temp = *n1;
+//     *n1 = *n2;
+//     *n2 = temp;
+    
+// }
+// problem 7 :
+// int fact(int i){
+//     if(i==0){
+//         return 1;
+//     }
+//     return i*fact(i-1);
+// }
+// int sumOfSerie(int n){
+//     int sum = 0;
+//     for(int i = 1 ; i<=n ; i++){
+//         sum = sum + (fact(i)/i);
+//     }
+//     return sum;
+// }
+// problem 8 :
+
+
+// void decimalToBinary(int num) {   
+//     if (num == 0) {
+//         printf("0");
+//         return;
+//     }
+   
+   
+//    int binaryNum[32]; 
+//    int i = 0;
+//    for (i=0;num > 0; i++){
+//       binaryNum[i] = num % 2;
+//       num /= 2;
+//    }
+   
+//    // Printing array in reverse order.
+//    for (int j = i-1; j >= 0; j--)
+//       printf("%d", binaryNum[j]);
+// }
+
+
+
 
 int main(){
     // int a,b;
@@ -75,9 +130,31 @@ int main(){
     // printf("Enter the number : ");
     // scanf("%d",&n);
     // printf("The sum of digits of %d is %d",n,sumOfDigits(n));
+    // problem 6 : the square of a number
+    // int n ;
+    // printf("Enter the number : ");
+    // scanf("%d",&n);
+    // printf("The square of %d is %d",n,square(n));
+    // problem 6 : function to swap to numbers
+    // int n1,n2;
+    // printf("Enter the first number : ");
+    // scanf("%d",&n1);
+    // printf("Enter the second number : ");
+    // scanf("%d",&n2);
+    // swap(&n1,&n2);
+    // printf("The numbers after swapping are : \n The first number : %d \n The second number : %d",n1,n2);
 
+    // problem 7 :
+    // int n;
+    // printf("Enter the number : ");
+    // scanf("%d",&n);
+    // printf("The sum of the series is %d",sumOfSerie(n));
 
-
+    // problem 8 :
+    int num ;
+    printf("Enter the number : ");
+    scanf("%d",&num);
+    decimalToBinary(num);
 
     return 0;
 }
