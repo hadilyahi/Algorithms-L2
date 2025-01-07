@@ -44,6 +44,8 @@ int main (){
         Tree tab[N];
         // call the function initTab
         initTab(tab, N);
+        printf("The table is initialized successfully\n");
+
 
 
         return 0;

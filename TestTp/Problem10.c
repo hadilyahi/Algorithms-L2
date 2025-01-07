@@ -57,7 +57,7 @@ void exportTreeToPNG(Tree* tab, int N) {
     printf("Fichier DOT généré avec succès.\n");
     printf("Génération de l'image PNG...\n");
 
-    // Exécuter GraphViz لتحويل ملف DOT إلى صورة PNG
+  
     system("dot -Tpng tree.dot -o tree.png");
 
     printf("Image PNG créée avec succès sous le nom 'tree.png'.\n");
@@ -137,7 +137,7 @@ int main() {
     }
  tab[0] = createNode(10, createNode(5, NULL, NULL), createNode(15, NULL, NULL));
     tab[1] = createNode(20, createNode(18, NULL, NULL), createNode(25, NULL, NULL));
-    tab[1] = createNode(20, createNode(6, NULL, NULL), createNode(2, NULL, NULL));
+    tab[2] = createNode(20, createNode(6, NULL, NULL), createNode(2, NULL, NULL));
     interactiveMenu(tab, N);
 
     return 0;
