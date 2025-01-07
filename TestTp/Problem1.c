@@ -38,7 +38,7 @@ Tree createNode(int val,Tree Left,Tree right ){
 int main (){
         // create a variable N
         int N;
-        printf("Enter the number of trees: ");
+        printf("Enter the number of TABLE : ");
         scanf("%d", &N);
         // create a variable tab
         Tree tab[N];
