@@ -4,7 +4,7 @@ typedef struct Node {
     struct Node* next;
 } Node;
 
-
+// function prototypes
 Node* createNode(int value)
 {
     Node* newNode = (Node*)malloc(sizeof(Node));
@@ -48,6 +48,8 @@ int isListEmpty(Node* head)
 {
     return head == NULL;  // Return 1 if the list is empty, 0 otherwise
 }
+
+
 
 // problem 1 : Write a program in C to create and display a Singly Linked List.
 struct Node* initializeList() {
@@ -95,17 +97,17 @@ struct Node* initializeList() {
         return prev;
     }
 // problem 3 :  Write a program in C to create a singly linked list of n nodes and count the number of nodes.
-// int countNodes(Node* head)
-// {
-//     int count = 0;
-//     Node* current = head;
-//     while (current)
-//     {
-//         count++;
-//         current = getNext(current);
-//     }
-//     return count;
-// }
+int countNodes(Node* head)
+{
+    int count = 0;
+    Node* current = head;
+    while (current)
+    {
+        count++;
+        current = getNext(current);
+    }
+    return count;
+}
     
 // problem 4 : Write a program in C to insert a new node at the beginning of a Singly Linked List.
  Node* insertAtBeginning(Node* head, int value){
@@ -115,27 +117,27 @@ struct Node* initializeList() {
  }
 int main(){
     // problem 1 : Write a program in C to create and display a Singly Linked List.
-    // Node* head = initializeList();
-    // Node* current = head;
+    Node* head = initializeList();
+    Node* current = head;
 
-    // while (current)
-    // {
-    //     printf("%d ", getValue(current));
-    //     current = getNext(current);
-    // }
+    while (current)
+    {
+        printf("%d ", getValue(current));
+        current = getNext(current);
+    }
      // problem 2 :  Write a program in C to create a singly linked list of n nodes and display it in reverse order.
-    // Node* head = initializeList(); 
-    // Node* reversedList = ReverseList(head); 
-    // Node* current = reversedList; 
+    Node* head = initializeList(); 
+    Node* reversedList = ReverseList(head); 
+    Node* current = reversedList; 
 
-    // while (current) {
-    //     printf("%d ", getValue(current)); 
-    //     current = getNext(current); 
-    // }
+    while (current) {
+        printf("%d ", getValue(current)); 
+        current = getNext(current); 
+    }
     // problem 3 :  Write a program in C to create a singly linked list of n nodes and count the number of nodes.
-    //  Node* head = initializeList();
-    //     int count = countNodes(head);
-    //     printf("Number of nodes: %d", count);
+     Node* head = initializeList();
+        int count = countNodes(head);
+        printf("Number of nodes: %d", count);
     // problem 4 : Write a program in C to insert a new node at the beginning of a Singly Linked List.
     Node* head = initializeList();
     int value;
