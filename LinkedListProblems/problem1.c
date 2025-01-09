@@ -148,7 +148,7 @@ int main(){
         printf("%d ", getValue(current));
         current = getNext(current);
     }
-
+    
 
     return 0;
 }
