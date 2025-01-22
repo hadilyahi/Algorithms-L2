@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1733493606 source:c:\users\nabil\desktop\td queue correction\td queue correction\main.c
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+	"stack.h"
+
+1731667081 source:c:\users\nabil\desktop\td queue correction\td queue correction\queue.c
+	<stdio.h>
+	"queue.h"
+
+1731667081 c:\users\nabil\desktop\td queue correction\td queue correction\queue.h
+
+1733493752 source:c:\users\nabil\desktop\td queue correction\td queue correction\stack.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1733493146 c:\users\nabil\desktop\td queue correction\td queue correction\stack.h
+
