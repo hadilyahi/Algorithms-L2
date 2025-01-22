@@ -68,7 +68,7 @@ void pushTwoQueueStack(TwoQueueStack* stack, int value) {
         enqueue(&stack->q2, dequeue(&stack->q1));
     }
 
-    // Swap the queues
+    
     Queue temp = stack->q1;
     stack->q1 = stack->q2;
     stack->q2 = temp;
