@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1731852215 source:c:\users\nabil\desktop\singlelinkedlistc -  td corr\list.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+
+1731221847 c:\users\nabil\desktop\singlelinkedlistc -  td corr\list.h
+
+1733007721 source:c:\users\nabil\desktop\singlelinkedlistc -  td corr\main.c
+	<stdio.h>
+	"list.h"
+

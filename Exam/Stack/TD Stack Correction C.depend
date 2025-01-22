@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1733488963 source:c:\users\nabil\desktop\td stack correction\td stack correction c\stack.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1733488870 c:\users\nabil\desktop\td stack correction\td stack correction c\stack.h
+
+1733490796 source:c:\users\nabil\desktop\td stack correction\td stack correction c\main.c
+	"stack.h"
+	<stdio.h>
+	<ctype.h>
+
