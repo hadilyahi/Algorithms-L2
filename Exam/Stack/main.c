@@ -4,12 +4,6 @@
 
 
 
-
-
-
-
-
-
 int precedence(char op) {
     switch (op) {
         case '+': case '-': return 1;
@@ -81,11 +75,10 @@ int main() {
    
     Stack stack;
     initStack(&stack);
-    // const char* infix = "A+B*(C-D)+E/F";
-    // char postfix[100];
-    // infix_to_postfix(infix, postfix);
-    // printf("Postfix: %s\n", postfix);
-
+    const char* infix = "A+B*(C-D)+E/F";
+    char postfix[100];
+    infix_to_postfix(infix, postfix);
+    printf("Postfix: %s\n", postfix);
 
     const char* postfix = "236*54*+";
     printf("Result: %d\n", evaluate_postfix(postfix));
