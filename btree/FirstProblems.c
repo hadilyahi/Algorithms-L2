@@ -171,7 +171,8 @@ int main() {
     } else {
         printf("The tree is NOT a Full Binary Tree.\n");
     }
-
+    // problem 6:
+    
     
     
     
